@@ -1,0 +1,36 @@
+{
+  "name": "project-s",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npx nodemon server.js\" \"cd client && npm start\"",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.0.0",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.3",
+    "dotenv": "^16.0.0",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "font-awesome": "^4.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "react-bootstrap": "^2.1.2",
+    "react-smooth-scrolling": "^1.0.2",
+    "serviceworker": "^0.1.7",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}
